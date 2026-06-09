@@ -4,6 +4,10 @@
 
 Uses **Groq** — a free, no-credit-card, OpenAI-compatible LLM API.
 
+## Demo
+
+![Interview Question Generator app](demo/App_screenshot.png)
+
 ## Files
 - `interview_question_generator.ipynb` — notebook with all the API code, structured-output and parameter experiments, findings, and best practices.
 - `interview_question_app.py` — Streamlit app (the customized prompt lives here).
@@ -18,3 +22,6 @@ Uses **Groq** — a free, no-credit-card, OpenAI-compatible LLM API.
 Groq is OpenAI-compatible, so the code uses the standard `openai` package
 pointed at `https://api.groq.com/openai/v1`. To switch back to OpenAI later,
 just remove the `base_url`/`api_key` overrides and use an `OPENAI_API_KEY`.
+
+## Author
+**Kanak Yadav** — [LinkedIn](https://www.linkedin.com/in/kanakyadav22)
